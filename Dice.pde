@@ -1,7 +1,7 @@
 void setup()
 {
 	noLoop();
-	size(420,420);
+	size(400,400);
 	textAlign(100,430);
 	textSize(15);
 }
