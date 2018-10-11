@@ -38,7 +38,7 @@ void draw()
 		}
 	}
 	fill(5,4,4);
-	text("Total " + numDots, 170, 390);
+	text("Total: " + numDots, 170, 390);
 }
 void mousePressed()
 {
@@ -64,7 +64,7 @@ class Die //models one single dice cube
 	{
 		fill((int)(Math.random()*256)+1, (int)(Math.random()*256)+1,(int)(Math.random()*256)+1);
 		strokeWeight(2);
-		rect(myX,myY, 50,50);
+		rect(myX,myY, 50,50,6);
 		if(face == 1)
 		{
 			fill((int)(Math.random()*256)+1, (int)(Math.random()*256)+1,(int)(Math.random()*256)+1);
